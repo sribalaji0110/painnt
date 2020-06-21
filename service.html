@@ -1,0 +1,299 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet " href="./css/style.css ">
+    <title>detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet " href="./css/bootstrap.min.css ">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js "></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!--------------Navbar-------->
+    <nav class="price_page navbar_top ">
+        <div class="nav_logo">
+            <a href="/">
+                <img src="assets/images/logo.png" alt="logo">
+            </a>
+        </div>
+        <span class="menu_icons" onclick="menuToggle()"><img src="assets/images/menu.png"></span>
+        <div class="nav_link" id="nav_bar">
+            <ul class="price_page">
+                <li><a href="/">Home</a></li>
+                <li><a href="price.html">Pricing</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="quote.html" class="button_tag">Get a Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="painting_section ">
+        <h2 class="head_two bolder">Painting</h2>
+        <div class="container ">
+            <div class="painting_overall ">
+                <div class="painting_tabs">
+                    <button class="tablinks active" onclick="tabfn(event, 'interior')">interior</button>
+                    <button class="tablinks" onclick="tabfn(event, 'exterior')">exterior</button>
+                </div>
+
+                <div id="interior" class="tabcontent">
+                    <p class="paragraph center">If you are looking for a professional, high-quality painter to handle
+                        your interior painting needs, contact our expert team at PIXEL PAINTERS today!</p>
+                    <div class="inner_content_overall ">
+                        <div class="col-md-6 ">
+                            <div class="inner_content ">
+                                <div class="content_mini ">
+                                    <h2 class="head_two ">Personalize Your Space </h2>
+                                    <p class="paragraph ">Whatever your walls came with is not what you’re stuck with.
+                                        You can personalize your home to suit your own tastes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="inner_img ">
+                                <img src="assets/images/interior_space.png ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner_content_overall ">
+                        <div class="col-md-6 desktop">
+                            <div class="inner_img ">
+                                <img src="assets/images/interior_appeal.png ">
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="inner_content ">
+                                <div class="content_apeal ">
+                                    <h2 class="head_two ">Personalize Your Space </h2>
+                                    <p class="paragraph ">From upgrading fixtures to replacing your blinds, there are
+                                        lots of tips and tricks to add increased appeal to your property. However, none
+                                        of them affects the whole house quite like having your home interior
+                                        professionally
+                                        repainted
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mobile">
+                            <div class="inner_img ">
+                                <img src="assets/images/interior_appeal.png ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner_content_overall walls ">
+                        <div class="col-md-6 ">
+                            <div class="inner_content ">
+                                <div class="content_mini ">
+                                    <h2 class="head_two ">Clean and Protect Your Walls </h2>
+                                    <p class="paragraph ">In addition, once your new paint is applied, your walls will
+                                        have renewed protection from moisture and dirt in your environment. A new
+                                        professional paint job will go a long way towards making your home feel clean
+                                        and
+                                        new again.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="inner_img ">
+                                <img src="assets/images/interior_wall.png ">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="exterior" class="tabcontent">
+                    <p class="paragraph center ">The exterior surfaces of your home are exposed to its two worst
+                        enemies; sunlight and moisture.
+                        If you don’t have a preventive maintenance program in place, these two elements will keep money
+                        draining out of your wallet.</p>
+                    <div class="inner_content_overall ">
+                        <div class="col-md-6 ">
+                            <div class="inner_content ">
+                                <div class="content_mini ">
+                                    <h2 class="head_two ">Personalize Your Space </h2>
+                                    <p class="paragraph ">Whatever your walls came with is not what you’re stuck with.
+                                        You can personalize your home to suit your own tastes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="inner_img ">
+                                <img src="assets/images/interior_space.png ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home_pest_section ">
+        <h2 class="head_two bolder"> Home Pest Control</h2>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/cock.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Cockroach Treatment </h3>
+                            <p class="paragraph ">Cockroaches pose a major problem in households as they have the
+                                capacity to contaminate food and cause illnesses.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/termite.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Termite Treatment </h3>
+                            <p class="paragraph ">Termites are known for their destructive effects on wooden structures,
+                                household furniture and constructions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/bird.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Bird Treatment </h3>
+                            <p class="paragraph ">Birds can be a nuisance to people residing in houses, bungalows and
+                                apartment buildings.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/ant.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Ant Treatment </h3>
+                            <p class="paragraph ">Ants cause inflammation through their bite and destroy your
+                                properties. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/bedbug.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Bedbug Treatment </h3>
+                            <p class="paragraph ">Bedbugs are parasites that feed on blood, cause extreme itching and
+                                sleepless nights. They damage furniture, beds, curtains and mattresses.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/bite.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Bite fighter service </h3>
+                            <p class="paragraph ">Now protect your family from mosquito bites which cause diseases like
+                                Dengue, Malaria, Chikungunya, Zika and Yellow Fever</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/rat.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Rat Treatment </h3>
+                            <p class="paragraph ">Rats are infamous for carrying dangerous diseases and damaging
+                                property.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/fabric.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Fabric Beetle Treatment
+                            </h3>
+                            <p class="paragraph ">Fabric beetles can destroy your clothing, carpet and other
+                                fabric-based goods.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6 home">
+                    <div class="pest_overall ">
+                        <div class="pest_img ">
+                            <img src="assets/images/mouse.png ">
+                        </div>
+                        <div class="pest_content ">
+                            <h3 class="head_three ">Mouse Treatment
+                            </h3>
+                            <p class="paragraph ">Mice can multiply quickly and will do significant damage to your home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="foot inner_page_foot service">
+        <div class="foot_overall">
+            <div class="foot_detail">
+                <div class="container">
+                    <div class="foot_logo">
+                        <img src="/assets/images/foot_logo.png">
+                    </div>
+                    <div class="foot_list">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="">Work</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="foot_copyrights">
+                <div class="container">
+                    <div class="foot_copy">
+                        <p>Copyright © 2010-2020 pixelpainters. All rights reserved.</p>
+                    </div>
+                    <div class="foot_icon">
+                        <ul>
+                            <li><a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/Pixel-Painters-101732524922411/" target="blank"><i
+                                        class="fa fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
